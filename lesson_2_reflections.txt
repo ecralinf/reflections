@@ -5,3 +5,22 @@ It's not committing anything
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It's an area where we choose what we want to commit
+
+How can you use the staging area to make sure you have one commit per logical change?
+I can choose what to add in the staging area to have just one commit per logical change
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When we are working on a new feature but we still want to be able to access the official working version
+
+How do the diagrams help you visualize the branch structure?
+We can see the different branches, including the master one, and thus see what is in development, and may or may not
+be commited later. We can also see if there are unreacheable nodes.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+It keeps all the commits from the two branches, and merge then in on single branch
+Because it's merged
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: Save a lot of time
+Avoid manual errors when merging
+Cons: Could have duplicate items, could not merge properly
